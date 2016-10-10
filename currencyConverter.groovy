@@ -7,9 +7,9 @@ boolean finished = false;
 while (!finished) {
     println "";
     println "What would you like to do?";
-    println "   1 - Exchange pounds into euro";
-    println "   2 - Exchange euro into pounds";
-    println "   0 - Exit the program";
+    println "   7 - Exchange pounds into euro";
+    println "   8 - Exchange euro into pounds";
+    println "   9 - Exit the program";
     println "";
     print   "> ";
     int choice = Integer.parseInt(System.console().readLine());
